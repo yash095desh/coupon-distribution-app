@@ -26,6 +26,6 @@ app.get("/",(req, res) => {
 app.use("/api/coupon",couponRoutes);
 app.use("/api/admin",adminRoutes);
 
-app.listen(PORT, () => {
+app.listen(PORT,"0.0.0.0",() => {
     console.log(`Listening on port ${PORT}`);
 });
