@@ -11,6 +11,9 @@
   "scripts": {
     "start": "node server.js"
   },
+  "engines": {
+  "node": "18.x"
+  },
   "type": "module",
   "name": "backend",
   "version": "1.0.0",
